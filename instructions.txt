@@ -1,0 +1,21 @@
+Using the Flask API that I made, create a blog front end for it using React. The API has a base url of https://kekambas-blog-api.onrender.com/
+
+I have also attached a Postman Collection that should allow you to test all of the endpoints.
+
+
+A user should be able to sign up, log in and log out. All users should be able to see all of the blog posts and get a single blog post. A logged in user should be able to create, update, and delete blog posts. 
+
+
+Here are the endpoints:
+
+- ['POST'] /api/users
+- ['GET'] /api/me *Token Auth Required
+- ['PUT'] /api/users/<user_id> *Token Auth Required
+- ['DELETE'] /api/users/<user_id> *Token Auth Required
+- ['POST'] /api/token  *Basic Auth Required
+
+- ['POST'] /api/posts
+- ['GET'] /api/posts
+- ['GET'] /api/posts/<post_id>
+- ['PUT'] /api/posts/<post_id> *Token Auth Required
+- ['DELETE'] /api/posts/<post_id> *Token Auth Required
